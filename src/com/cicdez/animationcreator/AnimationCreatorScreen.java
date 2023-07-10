@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class AnimationCreatorScreen extends JFrame {
-    public final int width = 610, height = 900;
+    public final int width = 600, height = 900;
     public final Map<String, String[]> imageExtensions = new HashMap<>();
     
     public final DefaultListModel<File> images = new DefaultListModel<>();
