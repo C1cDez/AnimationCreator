@@ -152,7 +152,7 @@ public class AnimationCreatorScreen extends JFrame {
         output.setBounds(290, save.getY() + save.getHeight() + 10, 300, 100);
         output.setLineWrap(true);
         output.setBackground(this.getBackground());
-        output.setEnabled(false);
+        output.setEditable(false);
         
         
         this.add(Main.makeLine(275, 0, 3, 900, Color.BLACK));
